@@ -1,0 +1,40 @@
+body {
+    background-color: darkgreen;
+    padding-top: 30px;
+}
+
+.container {
+    background-color: linen;
+    width: 250px;
+    height: 350px;
+    margin: auto;
+    border-radius: 15px;
+    border: solid lightgray 3px;
+}
+
+.cardBody {
+    text-align: center;
+    margin: 40px;
+    margin-top: 10px;
+}
+
+.cardHeader {
+    float: left;
+}
+
+.cardFooter {
+    float: right;
+}
+
+.cardHeader h2 {
+    font-size: 60px;
+}
+
+.cardBody h1 {
+    font-size: 120px;
+}
+
+.cardFooter h2 {
+    font-size: 60px;
+    transform: rotate(180deg);
+}
